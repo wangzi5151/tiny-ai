@@ -59,7 +59,7 @@ W.ai: 春风拂面暖如纱，
 - **UI 框架**: Material Design
 - **网络请求**: OkHttp / Retrofit
 - **数据存储**: Room Database
-- **AI 引擎**: 本地模型 + 云端 API
+- **AI 引擎**: 云端 API
 
 ## 更新日志
 
@@ -76,7 +76,7 @@ W.ai: 春风拂面暖如纱，
 ## 联系方式
 
 - **作者**: wangzi5151
-- **邮箱**: umezavunibih71@gmail.com
+- **邮箱**: umezavunibih71@gmail.com / wangzi5151@sina.com
 - **GitHub**: [@wangzi5151](https://github.com/wangzi5151)
 
 ## 致谢
