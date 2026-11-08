@@ -4,9 +4,8 @@
 *.aab
 
 # Build
-/build/
-/app/build/
-*.gradle
+build/
+.gradle/
 *.class
 *.dex
 

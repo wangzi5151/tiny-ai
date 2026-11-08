@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Tiny AI 2.0</string>
+
+    <string name="welcome_title">Tiny AI 2.0</string>
+    <string name="welcome_subtitle">本地演示模式，可选接入 OpenAI 兼容 Chat API</string>
+    <string name="get_started">开始对话</string>
+
+    <string name="feature_1">AI 对话</string>
+    <string name="feature_desc_1">支持多轮上下文，可在设置中配置远程接口</string>
+    <string name="feature_2">历史记录</string>
+    <string name="feature_desc_2">对话自动保存到本地，可导出、导入和删除</string>
+    <string name="feature_3">个性化设置</string>
+    <string name="feature_desc_3">主题、语言和生成参数随时调整</string>
+
+    <string name="title_chat">AI 对话</string>
+    <string name="title_history">历史记录</string>
+    <string name="title_settings">设置</string>
+
+    <string name="send_message">发送消息</string>
+    <string name="type_message">输入消息…</string>
+    <string name="error_empty">消息不能为空</string>
+    <string name="typing_indicator">AI 正在输入…</string>
+    <string name="message_copied">消息已复制</string>
+    <string name="paste">粘贴</string>
+
+    <string name="theme_settings">主题设置</string>
+    <string name="light_theme">浅色主题</string>
+    <string name="dark_theme">深色主题</string>
+    <string name="auto_theme">跟随系统</string>
+    <string name="theme_updated">主题已更新</string>
+
+    <string name="language_settings">语言设置</string>
+    <string name="language_auto">自动检测</string>
+    <string name="language_zh">中文</string>
+    <string name="language_en">English</string>
+    <string name="language_updated">语言设置已更新</string>
+
+    <string name="ai_settings">AI 设置</string>
+    <string name="ai_model_default">默认模型</string>
+    <string name="ai_model_advanced">高级模型</string>
+    <string name="ai_model_fast">快速模型</string>
+    <string name="ai_model_creative">创意模型</string>
+    <string name="ai_model_updated">AI 模型已更新</string>
+    <string name="temperature">温度</string>
+    <string name="max_tokens">最大长度</string>
+    <string name="temperature_set">温度已设为 %1$.1f</string>
+    <string name="max_tokens_set">最大长度已设为 %1$d</string>
+
+    <string name="api_settings">远程 Chat API（OpenAI 兼容）</string>
+    <string name="api_base_url">接口地址</string>
+    <string name="api_base_url_hint">https://api.openai.com/v1</string>
+    <string name="api_model">模型名称</string>
+    <string name="api_model_hint">gpt-4o-mini</string>
+    <string name="api_key">API Key</string>
+    <string name="api_key_hint">留空则使用本地演示模式</string>
+    <string name="api_config_saved">API 配置已保存</string>
+    <string name="save_api_config">保存 API 配置</string>
+    <string name="api_invalid_url">接口地址必须以 http:// 或 https:// 开头</string>
+    <string name="demo_mode_active">当前为本地演示模式，回复不会发送到远程服务</string>
+    <string name="api_remote_active">远程 API 已配置：%1$s</string>
+
+    <string name="about">关于</string>
+    <string name="version">版本 2.0.0</string>
+
+    <string name="clear_history">清除历史</string>
+    <string name="confirm_clear_title">清除历史记录</string>
+    <string name="confirm_clear">确定要清除所有历史记录吗？此操作不可撤销。</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+    <string name="cancel">取消</string>
+    <string name="no_messages">暂无消息</string>
+    <string name="empty_state_subtitle">还没有对话记录，先去和 AI 聊聊吧。</string>
+    <string name="conversation_deleted">对话已删除</string>
+
+    <string name="conversation_options">对话选项</string>
+    <string name="share">分享</string>
+    <string name="export">导出</string>
+    <string name="delete">删除</string>
+    <string name="delete_conversation_title">删除对话</string>
+    <string name="delete_conversation_message">确定要删除这条对话吗？</string>
+    <string name="share_chooser">分享对话</string>
+    <string name="message_count">%1$d 条消息</string>
+
+    <string name="export_history">导出历史</string>
+    <string name="import_history">导入历史</string>
+    <string name="export_format">导出格式</string>
+    <string name="export_format_json">JSON（可再次导入）</string>
+    <string name="export_format_txt">纯文本</string>
+    <string name="export_success">导出成功</string>
+    <string name="export_failed">导出失败</string>
+    <string name="import_success">导入成功</string>
+    <string name="import_failed">导入失败</string>
+    <string name="import_invalid">文件内容不是有效的 Tiny AI 历史记录</string>
+    <string name="import_empty">文件中没有可导入的对话</string>
+    <string name="imported_count">已导入 %1$d 条对话</string>
+    <string name="saved_to">已保存到 %1$s</string>
+</resources>

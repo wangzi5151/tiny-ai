@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#6750A4</color>
+    <color name="primary_container">#EADDFF</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_inverse">#49454F</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#625B71</color>
+    <color name="secondary_container">#E8DEF8</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_inverse">#332D41</color>
+
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#7D5260</color>
+    <color name="tertiary_container">#FFD8E4</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="tertiary_inverse">#492532</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FEF7FF</color>
+    <color name="on_background">#1C1B1F</color>
+    <color name="surface">#FEF7FF</color>
+    <color name="on_surface">#1C1B1F</color>
+    <color name="surface_variant">#E7E0EC</color>
+    <color name="on_surface_variant">#49454F</color>
+    <color name="surface_bright">#FFEDF7</color>
+    <color name="surface_dim">#DED8E1</color>
+
+    <!-- Card Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_surface">#FFFFFF</color>
+    <color name="on_card_surface">#1C1B1F</color>
+
+    <!-- AI Message Colors -->
+    <color name="ai_message_background">#F3E8FF</color>
+    <color name="ai_message_surface">#EADDFF</color>
+    <color name="on_ai_message">#49454F</color>
+
+    <!-- Error Colors -->
+    <color name="error">#BA1A1A</color>
+    <color name="error_container">#FFDAD6</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#410002</color>
+
+    <!-- Success Colors -->
+    <color name="success">#146C2E</color>
+    <color name="success_container">#DFF6E3</color>
+    <color name="on_success">#FFFFFF</color>
+
+    <!-- Warning Colors -->
+    <color name="warning">#92400E</color>
+    <color name="warning_container">#FFDCC8</color>
+    <color name="on_warning">#FFFFFF</color>
+
+    <!-- Divider Colors -->
+    <color name="divider">#E7E0EC</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1C1B1F</color>
+    <color name="text_secondary">#49454F</color>
+    <color name="text_tertiary">#79747E</color>
+    <color name="text_inverse">#FFFFFF</color>
+
+    <!-- Interactive Colors -->
+    <color name="ripple">#2A1F3D</color>
+    <color name="selection">#EADDFF</color>
+
+    <!-- Theme-specific Colors -->
+    <color name="light_background">#FEF7FF</color>
+    <color name="dark_background">#1C1B1F</color>
+    <color name="light_surface">#FFFFFF</color>
+    <color name="dark_surface">#49454F</color>
+
+    <!-- Brand Colors -->
+    <color name="brand_primary">#6750A4</color>
+    <color name="brand_secondary">#625B71</color>
+    <color name="brand_accent">#7D5260</color>
+
+    <!-- Status Colors -->
+    <color name="status_online">#4CAF50</color>
+    <color name="status_offline">#9E9E9E</color>
+    <color name="status_busy">#F44336</color>
+    <color name="status_away">#FF9800</color>
+
+    <!-- Animation Colors -->
+    <color name="animation_highlight">#EADDFF</color>
+    <color name="animation_shadow">#1A1A1A</color>
+
+    <!-- Custom Colors for Tiny AI 2.0 -->
+    <color name="ai_glow">#EADDFF</color>
+    <color name="ai_hologram">#7C4DFF</color>
+    <color name="ai_circuit">#3F51B5</color>
+
+    <!-- Night Mode Colors -->
+    <color name="night_primary">#BB86FC</color>
+    <color name="night_secondary">#03DAC6</color>
+    <color name="night_background">#121212</color>
+    <color name="night_surface">#1E1E1E</color>
+
+    <!-- Color Variations -->
+    <color name="primary_light">#D0BCFF</color>
+    <color name="primary_dark">#49454F</color>
+    <color name="secondary_light">#CCC2DC</color>
+    <color name="secondary_dark">#332D41</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#6750A4</color>
+    <color name="gradient_middle">#7D5260</color>
+    <color name="gradient_end">#9333EA</color>
+
+    <!-- Shadow Colors -->
+    <color name="shadow_light">#00000000</color>
+    <color name="shadow_medium">#0A000000</color>
+    <color name="shadow_dark">#1A000000</color>
+
+    <!-- Special Effects -->
+    <color name="glass_background">#FFFFFF</color>
+    <color name="glass_foreground">#1C1B1F</color>
+    <color name="glass_overlay">#1A000000</color>
+
+    <!-- Accessibility -->
+    <color name="high_contrast_primary">#6200EE</color>
+    <color name="high_contrast_secondary">#BB86FC</color>
+
+    <!-- Custom Colors for Features -->
+    <color name="chat_bubble">#F3E8FF</color>
+    <color name="chat_bubble_user">#E8DEF8</color>
+    <color name="typing_indicator">#6750A4</color>
+
+    <!-- Material You Dynamic Colors -->
+    <color name="dynamic_light">#6750A4</color>
+    <color name="dynamic_dark">#BB86FC</color>
+
+    <!-- System Colors -->
+    <color name="system_accent1">#6750A4</color>
+    <color name="system_accent2">#625B71</color>
+    <color name="system_accent3">#7D5260</color>
+
+    <!-- Notification Colors -->
+    <color name="notification_primary">#6750A4</color>
+    <color name="notification_background">#FFFFFF</color>
+    <color name="notification_text">#1C1B1F</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_primary">#6750A4</color>
+    <color name="chart_secondary">#625B71</color>
+    <color name="chart_tertiary">#7D5260</color>
+    <color name="chart_quaternary">#9333EA</color>
+
+    <!-- Map Colors -->
+    <color name="map_primary">#6750A4</color>
+    <color name="map_secondary">#625B71</color>
+    <color name="map_background">#FEF7FF</color>
+
+    <!-- E-commerce Colors -->
+    <color name="price_primary">#6750A4</color>
+    <color name="price_discount">#D32F2F</color>
+    <color name="price_original">#757575</color>
+
+    <!-- Social Media Colors -->
+    <color name="social_like">#F44336</color>
+    <color name="social_comment">#2196F3</color>
+    <color name="social_share">#4CAF50</color>
+    <color name="social_bookmark">#FF9800</color>
+
+    <!-- Gaming Colors -->
+    <color name="gaming_primary">#6750A4</color>
+    <color name="gaming_secondary">#625B71</color>
+    <color name="gaming_accent">#7D5260</color>
+    <color name="gaming_background">#1C1B1F</color>
+
+    <!-- Productivity Colors -->
+    <color name="productivity_primary">#6750A4</color>
+    <color name="productivity_secondary">#625B71</color>
+    <color name="productivity_complete">#4CAF50</color>
+    <color name="productivity_pending">#FF9800</color>
+    <color name="productivity_overdue">#F44336</color>
+
+    <!-- Education Colors -->
+    <color name="education_primary">#6750A4</color>
+    <color name="education_secondary">#625B71</color>
+    <color name="education_success">#4CAF50</color>
+    <color name="education_error">#F44336</color>
+
+    <!-- Health Colors -->
+    <color name="health_primary">#6750A4</color>
+    <color name="health_secondary">#625B71</color>
+    <color name="health_good">#4CAF50</color>
+    <color name="health_warning">#FF9800</color>
+    <color name="health_bad">#F44336</color>
+
+    <!-- Weather Colors -->
+    <color name="weather_sunny">#FFD54F</color>
+    <color name="weather_cloudy">#90A4AE</color>
+    <color name="weather_rain">#42A5F5</color>
+    <color name="weather_snow">#E3F2FD</color>
+    <color name="weather_storm">#7E57C2</color>
+</resources>

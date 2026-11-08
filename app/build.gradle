@@ -1,0 +1,68 @@
+plugins {
+    id 'com.android.application'
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withInputStream { localProperties.load(it) }
+}
+
+def chatApiBaseUrl = localProperties.getProperty('CHAT_API_BASE_URL')
+        ?: System.getenv('CHAT_API_BASE_URL')
+        ?: 'https://api.openai.com/v1'
+def chatApiKey = localProperties.getProperty('CHAT_API_KEY')
+        ?: System.getenv('CHAT_API_KEY')
+        ?: ''
+def chatApiModel = localProperties.getProperty('CHAT_API_MODEL')
+        ?: System.getenv('CHAT_API_MODEL')
+        ?: 'gpt-4o-mini'
+
+android {
+    namespace 'com.tinyai2'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.tinyai2'
+        minSdk 24
+        targetSdk 34
+        versionCode 20
+        versionName '2.0.0'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        vectorDrawables { useSupportLibrary true }
+
+        buildConfigField 'String', 'CHAT_API_BASE_URL', "\"${chatApiBaseUrl}\""
+        buildConfigField 'String', 'CHAT_API_KEY', "\"${chatApiKey}\""
+        buildConfigField 'String', 'CHAT_API_MODEL', "\"${chatApiModel}\""
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix '.debug'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core:1.12.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.11.0'
+
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+}
